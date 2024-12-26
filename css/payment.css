@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #083460;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo {
+    position: relative;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header .logo h1 {
+    font-family: "Yellowtail", cursive;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+}
+header .back {
+    position: relative;
+    right: 57%;
+    padding: 20px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #042140; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+button {
+    position: relative;
+    left: 70%;
+    top: 20px;
+    border: none;
+}
+
+.button1 {
+    align-items: center; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #042140; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.button1:hover {
+    background-color: #0056b3; 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}
+
+.button1:active {
+    background-color: #003f7f; /* Even darker on click */
+    transform: translateY(0); /* Reset lift */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Reset shadow */
+}
+
+
+.button i {
+    margin-right: 8px;
+    font-size: 18px; 
+}
+
+.button:hover {
+    background-color: #0056b3; 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}
+
+.button:active {
+    background-color: #003f7f; /* Even darker on click */
+    transform: translateY(0); /* Reset lift */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Reset shadow */
+}
+
+main {
+    position: relative;
+    top: 70px;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* .pembayaran {
+    position: relative;
+} */
+
+/* .pembayaran .label {
+    min-width: 150px; 
+    position: relative;
+    padding-right: 10px;
+} */
+
+/* .pembayaran .label::after {
+    content: " :"; 
+    position: absolute;
+    right: 10px; 
+} */
+
+/* .pembayaran .value {
+    flex-grow: 1; 
+} */
+
+
+.pembayaran {
+    position: relative;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+.pembayaran p {
+    display: flex;
+    margin: 15px 0;
+}
+
+.pembayaran .label {
+    min-width: 150px; /* Atur lebar kolom kiri sesuai kebutuhan */
+    position: relative;
+    padding-right: 10px;
+}
+
+.pembayaran .label::after {
+    content: " :"; 
+    position: absolute;
+    right: 10px; 
+}
+
+.pembayaran .value {
+    flex-grow: 1; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+strong {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button:hover {
+    background-color: #218838;
+}
+
+p[style='color:red;'] {
+    color: red;
+    font-weight: bold;
+}

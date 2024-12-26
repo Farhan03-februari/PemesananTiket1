@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #083460;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    position: relative;
+    right: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1 {
+    color: white;
+    font-family: "Yellowtail", cursive;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.logo img {
+    width: 150px;
+}
+
+main {
+    position: relative;
+    top: 60px;
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-pembayaran h1 {
+    text-align: center;
+}
+
+.detail-pembayaran p {
+    display: flex;
+    margin: 15px 0;
+}
+
+.detail-pembayaran .label {
+    min-width: 170px; 
+    position: relative;
+    padding-right: 10px;
+}
+
+.detail-pembayaran .label::after {
+    content: " :"; 
+    position: absolute;
+    right: 10px; 
+}
+
+.detail-pembayaran .value {
+    flex-grow: 1; 
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+strong {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media print {
+    header {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+}

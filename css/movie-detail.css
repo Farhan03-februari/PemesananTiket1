@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #083460;
+}
+
+header h1 {
+    position: absolute;
+    left: 43%;
+    text-align: center;
+    color: white;
+    font-family: "Yellowtail", cursive;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.back {
+    padding: 20px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #042140; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.button i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 18px; /* Adjust icon size */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+    transform: translateY(-2px); /* Slight hover lift */
+}
+
+.button:active {
+    background-color: #003f7f; /* Even darker on click */
+    transform: translateY(0); /* Reset lift */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Reset shadow */
+}
+
+
+main {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70%;
+    margin: 20px ;
+    padding: 50px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-desFilm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.foto-film {
+    display: flex;
+    align-items: center;
+}
+/* .foto-film img {
+    width: 380px;
+    border-radius: 20px;
+} */
+
+.movie-1 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-3 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-11 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-5 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-6 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    right: 20px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-7 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 30px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-8 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-9 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.movie-10 {
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    left: 50px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.deskripsi-film {
+    margin-top: 20px;
+    margin-left: 400px;
+    align-items: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.deskripsi-film p {
+    display: flex;
+    margin: 15px 0;
+}
+
+.deskripsi-film .label {
+    min-width: 150px; /* Atur lebar kolom kiri sesuai kebutuhan */
+    position: relative;
+    padding-right: 10px;
+}
+
+.deskripsi-film .label::after {
+    content: " :"; /* Menambahkan titik dua */
+    position: absolute;
+    right: 10px; /* Menempatkan titik dua di ujung */
+}
+
+.deskripsi-film .value {
+    flex-grow: 1; /* Kolom kanan otomatis menyesuaikan panjang teks */
+}
+
+.button-tiket {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #333;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

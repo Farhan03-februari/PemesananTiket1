@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #083460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header .logo {
+    position: absolute;
+    top: -30px;
+    right: 40%;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 250px;
+}
+
+header .logo h1 {
+    color: white;
+    font-family: "Yellowtail", cursive;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.login-container {
+    position: relative;
+    top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-form button {
+    background-color: #083460;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0b559f;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

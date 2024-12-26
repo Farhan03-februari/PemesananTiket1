@@ -1,0 +1,256 @@
+/* Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color:#ffffff
+
+}
+
+/* Header Section */
+.header {
+    background-color: #083460;
+    padding: 20px;
+    height: 250px;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.logo {
+    position: relative;
+    left: 10%;
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h1 {
+   color: white;
+   font-family: "Yellowtail", cursive;
+   font-weight: 600;
+   font-size: 50px;
+   font-style: normal;
+}
+
+.logo p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+ }
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #042140;
+    margin-top: 80px;
+    padding: 10px;
+    align-items: center;
+    }
+
+.sesion-info {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.sesion-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sesion-name i {
+    font-size: 20px;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(12, 12, 146);
+    color: white;
+    width: 70px;
+    border: none;
+}
+
+form button:hover {
+    background-color: #083460;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #6caae8;
+}
+
+main h1 {
+    position: relative;
+    left: 50px;
+    top: -50px;
+    padding: 20px;
+    color: #083460;
+}
+
+.container-populer {
+    position: relative;
+    top: -50px;
+    padding: 20px;
+    margin: 40px;
+    background-color: #042140;
+    border-radius: 20px;
+    height: 80vh;
+}
+
+.container-cardt {
+    position: relative;
+    top: -30rem;
+}
+
+.container-populer h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 70px;
+    margin-right:70px ;
+
+}
+
+.container-card {
+    position: relative;
+    top: -150px;
+}
+
+.container-terbaru {
+    position: relative;
+    top: 50px;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 10px 10px 5px ;
+    background-color: #042140;
+    border-radius: 20px;
+    height: 140vh;
+}
+
+
+.title-terbaru {
+    position: relative;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.film-terbaru {
+    margin-top: 50px;
+}
+
+.movie-gallery {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 15px;
+}
+
+
+.movie-card {
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #083460;
+    box-shadow: 10px 10px 5px white;
+    transition: transform 0.3s ease;
+}
+
+.movie-card h3{
+    color: #ffffff;
+    
+}
+
+.movie-card p{
+    color: #ffffff;
+    
+}
+
+.movie-card a {
+    position: relative;
+    left: 100px;
+    background-color: #042140;
+    padding: 10px;
+    border-radius: 5px;
+    top: 10px;
+    text-decoration: none;
+    color: white; 
+    transition: all 0.3s ease; 
+}
+
+.movie-card a:hover {
+    color: rgb(128, 128, 168);
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.movie-card a:active {
+    color: #003f7f; /* Even darker on click */
+    transform: translateY(0); /* Reset lift */
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Reset shadow */
+}
+
+.movie-card img {
+    width: 200px; /* Lebar tetap */
+    height: 200px; /* Tinggi tetap */
+    object-fit: cover;
+}
+
+
+.film-terbaru {
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+    border-radius: 20px;
+  width: 200px;
+  height: 100%;
+  object-fit: contain;
+}

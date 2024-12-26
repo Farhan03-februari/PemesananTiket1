@@ -1,0 +1,272 @@
+/* beranda.css */
+
+/* beranda.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #100505;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #35424a;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px); /* 3 movies per row */
+    padding: 10px;
+    text-align: center;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie h3 {
+    color: #35424a;
+    margin: 10px 0;
+}
+
+.movie p {
+    color: #666666;
+}
+
+.movie a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #35424a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.movie a:hover {
+    background: #45a049;
+}
+
+.container-logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-email {
+    display: inline-block;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+.btn {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #45a049;
+}
+
+deskripsiFilm {
+    height: auto;
+    padding: 30px;
+    display: block;
+}
+
+.deskripsiFilm h1 {
+    text-align: center;
+}
+
+.filmTerpopuler {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #9dccfb;
+}
+
+.containerFilm{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.containerFilm2{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.containerFilm3{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.filmTerbaru {
+    background-color: #acd6ff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.containerFilm4{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.containerFilm5{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.containerFilm6{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.containerFilm7{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.containerFilm8{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.containerFilm9{
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4da6ff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+
+.posterFilm img {
+    width: 300px;
+}
+.film-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.film-poster {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100%;
+    max-width: 200px;
+}
+.film-info {
+    font-size: 14px;
+}
+.film-info p {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+.film-info p {
+    display: inline-block;
+    margin: 0;
+    color: red;
+}
+.synopsis {
+    margin-top: 10px;
+}
+.synopsis a {
+    color: blue;
+    text-decoration: none;
+}
+.synopsis a:hover {
+    text-decoration: underline;
+}
